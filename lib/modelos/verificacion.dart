@@ -44,7 +44,7 @@ enum EstadoVerificacion {
   }
 
   // Criterios que no se cumplieron.
-  List<Criterio> get pendieentes => criterios.where((c) => !c.cumple).toList();
+  List<Criterio> get pendientes => criterios.where((c) => !c.cumple).toList();
 
   String get fechaTexto {
     final dia = fecha.day.toString().padLeft(2, '0');

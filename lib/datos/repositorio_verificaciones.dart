@@ -15,7 +15,7 @@ class RepositorioVerificaciones {
     _verificaciones.add(verificacion);
   }
 
-  void eliminas(int indice) {
+  void eliminar(int indice) {
     _verificaciones.removeAt(indice);
   }
 
